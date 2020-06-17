@@ -1,0 +1,12 @@
+/*------------------------------------------------------------------------------
+1.0 abstracts - configuration and helpers
+>>> This file contains all application-wide Sass functions.
+------------------------------------------------------------------------------*/
+
+/// Returns rem value based on the px value
+/// @param $size - px value
+/// @return rem value
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}

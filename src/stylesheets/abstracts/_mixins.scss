@@ -1,0 +1,11 @@
+/*------------------------------------------------------------------------------
+1.0 abstracts - configuration and helpers
+>>> This file contains all application-wide Sass mixins.
+------------------------------------------------------------------------------*/
+
+/// mixin calling the calculateRem
+/// @param $size - px value
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}

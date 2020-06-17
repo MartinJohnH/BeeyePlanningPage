@@ -1,0 +1,20 @@
+/*------------------------------------------------------------------------------
+1.0 abstracts - configuration and helpers
+>>> This file contains all application-wide Sass variables.
+------------------------------------------------------------------------------*/
+
+/* colors */
+$white: #f7f7f7 !default;
+$light-grey: #eeeeee !default;
+$grey: #b4b4b4 !default;
+$dark-grey: #1e1e1e !default;
+$black: #131313 !default;
+
+/* responsive breakpoints */
+$s-viewport: 425px;
+$sm-viewport: 576px;
+$md-viewport: 768px;
+$lg-viewport: 992px;
+$xl-viewport: 1200px;
+$xxl-viewport: 1600px;
+$xxxl-viewport: 2000px;

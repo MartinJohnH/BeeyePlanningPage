@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* Sass 7-1 architecture pattern */
+
+/*------------------------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+--------------------------------------------------------------------------------
+1.0 abstracts - configuration and helpers
+2.0 vendors - CSS files from external libraries and frameworks
+3.0 base - boilerplate code for the project
+4.0 layout - global wireframe (flex-box/grid)
+5.0 components - specific module/widgets
+6.0 pages - page-specific styles
+7.0 shame - hacks/code that could be better
+------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+1.0 abstracts - configuration and helpers
+------------------------------------------------------------------------------*/
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+/*------------------------------------------------------------------------------
+2.0 vendors - CSS files from external libraries and frameworks
+------------------------------------------------------------------------------*/
+@import
+  'vendors/normalize';
+
+/*------------------------------------------------------------------------------
+3.0 base - boilerplate code for the project
+------------------------------------------------------------------------------*/
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+/*------------------------------------------------------------------------------
+4.0 layout - global wireframe (flex-box/grid)
+------------------------------------------------------------------------------*/
+@import
+  'layout/header',
+  'layout/footer';
+
+/*------------------------------------------------------------------------------
+5.0 components - specific module/widgets
+------------------------------------------------------------------------------*/
+@import 'components/button';
+
+/*------------------------------------------------------------------------------
+6.0 pages - page-specific styles
+------------------------------------------------------------------------------*/
+@import
+  'pages/home';
+
+/*------------------------------------------------------------------------------
+7.0 shame - hacks/code that could be better
+------------------------------------------------------------------------------*/
+@import 'shame/shame';
