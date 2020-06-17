@@ -1,13 +1,20 @@
 import React from 'react';
-//import * as api from './api';
 
 //components
-
+import Header from "../components/Header";
+import TopBar from "../components/TopBar";
+import PlanningCardsHeader from "../components/PlanningCardsHeader";
+import PlanningCards from "../components/PlanningCards";
+import Footer from "../components/Footer";
 
 function HomePage() {
     return (
         <>
-            Hi
+            <TopBar />
+            <Header />
+            <PlanningCardsHeader />
+            <PlanningCards />
+            <Footer />
         </>
     );
 }
