@@ -45,3 +45,12 @@
   font-size: 12px;
   line-height: 16px;
 }
+
+//mixin for small-subHeader font
+@mixin smallSubHeader {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+}
