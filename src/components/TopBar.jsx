@@ -5,12 +5,12 @@ import Button from "./Button";
 function MenuLeft() {
     return (
         <div className="menu-left">
-            {/*<img src={require('../assets/logo.png')} alt="logo"/>*/}
-            <ul className="button-bar">
-                <li>Gestion</li>
-                <li>Temps</li>
-                <li>Analyse</li>
-            </ul>
+            <img className="logo" src={require('../assets/logo.png')} alt="logo"/>
+            <div className="button-bar">
+                <a href="#">Gestion</a>
+                <a href="#">Temps</a>
+                <a href="#">Analyse</a>
+            </div>
         </div>
     );
 }
@@ -25,13 +25,13 @@ function MenuRight() {
                 icon='T'
                 text='Ajouter'
             />
-            <ul className="icon-set">
-                <li>S</li>
-                <li>A</li>
-                <li>?</li>
-                <li>S</li>
-            </ul>
-            {/*<img src={require('../assets/logo.png')} alt="avatar"/>*/}
+            <div className="icon-set">
+                <a href="#">S</a>
+                <a href="#">A</a>
+                <a href="#">?</a>
+                <a href="#">S</a>
+            </div>
+            <img className="avatar" src={require('../assets/avatar.png')} alt="avatar"/>
         </div>
     );
 }

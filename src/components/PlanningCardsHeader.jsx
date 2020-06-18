@@ -5,9 +5,7 @@ function PlanningCardsHeader(props) {
     const daysArray = ["lundi", "mardi", "mercredi", "Jeudi", "vendredi", "samedi", "dimanche"];
     return (
         <div className="planning-cards-grid">
-            <div className="side-panel--header">
-                <SearchBar />
-            </div>
+            <SearchBar />
             <div className="main-panel--header">
                 <h2 className="month--header">{props.month}</h2>
                 <div className="days-grid">

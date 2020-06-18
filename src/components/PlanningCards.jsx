@@ -13,6 +13,7 @@ function PlanningCards() {
                 <LatePanel />
             </div>
             <div>
+                <TaskCounter daysArray={daysArray} />
                 <div className="days-grid">
                     {daysArray.map((day, index) =>
                         <div className="cards-container">
@@ -20,7 +21,6 @@ function PlanningCards() {
                         </div>
                     )}
                 </div>
-                <TaskCounter daysArray={daysArray} />
             </div>
         </div>
     );

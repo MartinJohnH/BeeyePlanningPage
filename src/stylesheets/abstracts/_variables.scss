@@ -4,11 +4,19 @@
 ------------------------------------------------------------------------------*/
 
 /* colors */
-$white: #f7f7f7 !default;
-$light-grey: #eeeeee !default;
-$grey: #b4b4b4 !default;
+$white: #ffffff !default;
+$light-grey: #B7BFD6 !default;
+$grey: #A0A0A0 !default;
 $dark-grey: #1e1e1e !default;
 $black: #131313 !default;
+
+$light-grey-border: #F0F2FA !default;
+$light-grey-border2: #F0F0F0 !default;
+
+$navy-blue: #1F2530 !default;
+$light-navy-blue: #29303D !default;
+$light-orange: #FFF9F2 !default;
+$orange: #F27633 !default;
 
 /* responsive breakpoints */
 $s-viewport: 425px;

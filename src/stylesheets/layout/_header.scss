@@ -2,3 +2,114 @@
 4.0 layout - global wireframe (flex-box/grid)
 >>> This file contains all styles related to the header of the site.
 ------------------------------------------------------------------------------*/
+
+.top-bar {
+  background-color: $navy-blue;
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  width: 100%;
+
+  .menu-left {
+    align-items: center;
+    display: flex;
+    margin: 16px;
+
+    .logo {
+      height: auto;
+      margin-right: 24px;
+      width: 22px;
+    }
+
+    a {
+      @include regular-font;
+      color: $light-grey;
+      margin: 0 16px;
+    }
+  }
+
+  .menu-right {
+    align-items: center;
+    display: flex;
+    margin: 16px;
+
+    a {
+      @include icon-font;
+      color: $light-grey;
+      margin: 0 12px;
+    }
+
+    .avatar {
+      height: 32px;
+      margin-left: 12px;
+      width: 32px;
+    }
+  }
+}
+
+.header {
+  .header-title {
+    @include h1-font;
+    background-color: $white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 16px;
+  }
+}
+
+.subheader {
+  background-color: $light-orange;
+  display: flex;
+  justify-content: space-between;
+
+  .buttons-left-align, .buttons-right-align {
+    display: flex;
+    margin: 8px;
+
+    .button {
+      background-color: $white;
+      border-radius: 4px;
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08);
+      margin-right: 8px;
+      padding: 8px 16px;
+
+      span {
+        @include icon-font;
+        color: $orange;
+      }
+    }
+  }
+}
+
+.main-panel--header {
+  .month--header {
+    @include subHeader;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(0, 0, 0, 0.1);
+    color: $light-grey;
+    margin: 0;
+    padding: 8px 16px;
+  }
+
+  .day-container {
+    align-items: baseline;
+    border-right: 1px solid $light-grey-border;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .day--header, .day-index--header {
+    @include subHeader;
+    margin: 8px 16px;
+  }
+}
+
+.number-subheader {
+  @include  regular-font;
+  display: inline-block;
+  border-right: 1px solid $light-grey-border2;
+  border-bottom: 1px solid $light-grey-border2;
+  color: $light-navy-blue;
+  text-align: center;
+  padding: 24px 0;
+}

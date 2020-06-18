@@ -5,7 +5,7 @@ function TaskCounter(props) {
         <div className="days-grid">
             {props.daysArray.map(() =>
                 <div className="number-subheader">
-                    <span>0/3</span>
+                    <span>0 / 3</span>
                 </div>
             )}
         </div>

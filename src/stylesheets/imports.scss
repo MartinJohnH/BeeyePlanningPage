@@ -39,13 +39,16 @@
 4.0 layout - global wireframe (flex-box/grid)
 ------------------------------------------------------------------------------*/
 @import
+  'layout/grid',
   'layout/header',
   'layout/footer';
 
 /*------------------------------------------------------------------------------
 5.0 components - specific module/widgets
 ------------------------------------------------------------------------------*/
-@import 'components/button';
+@import
+  'components/button',
+  'components/search-bar';
 
 /*------------------------------------------------------------------------------
 6.0 pages - page-specific styles

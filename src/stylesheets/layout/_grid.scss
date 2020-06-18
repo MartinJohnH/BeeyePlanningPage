@@ -1,0 +1,14 @@
+/*------------------------------------------------------------------------------
+4.0 layout - global wireframe (flex-box/grid)
+>>> This file contains all styles related to the use of the grid.
+------------------------------------------------------------------------------*/
+
+.planning-cards-grid {
+  display: grid;
+  grid-template-columns: 352px auto;
+}
+
+.days-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}

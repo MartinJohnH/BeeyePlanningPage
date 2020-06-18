@@ -12,7 +12,7 @@ function HomePage() {
         <>
             <TopBar />
             <Header />
-            <PlanningCardsHeader />
+            <PlanningCardsHeader month="JANVIER"/>
             <PlanningCards />
             <Footer />
         </>
