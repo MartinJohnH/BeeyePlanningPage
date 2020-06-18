@@ -8,14 +8,19 @@ import PlanningCards from "../components/PlanningCards";
 import Footer from "../components/Footer";
 
 function HomePage() {
+    const daysArray = ["LUNDI", "MARDI", "MERCREDI", "JEUDI", "VENDREDI", "SAMEDI", "DIMANCHE"];
     return (
-        <>
+        <div className="main-grid">
             <TopBar />
             <Header />
-            <PlanningCardsHeader month="JANVIER"/>
-            <PlanningCards />
+            <PlanningCardsHeader
+                month="JANVIER"
+                currentDay="MARDI"
+                daysArray={daysArray}
+            />
+            <PlanningCards daysArray={daysArray} />
             <Footer />
-        </>
+        </div>
     );
 }
 
