@@ -19,9 +19,7 @@ function MenuRight() {
     return (
         <div className="menu-right">
             <Button
-                styleTheme="dark"
                 dropdown={true}
-                borderRadius={'20px'}
                 icon='T'
                 text='Ajouter'
             />
