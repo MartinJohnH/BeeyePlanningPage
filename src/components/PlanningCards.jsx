@@ -16,7 +16,9 @@ function PlanningCards(props) {
                 <div className="days-grid main">
                     {props.daysArray.map((day, index) =>
                         <div className="cards-container">
-                            <Card />
+                            {props.daysArray.map((day, index) =>
+                                <Card isCompleted={false} isLate={false}/>
+                            )}
                         </div>
                     )}
                 </div>

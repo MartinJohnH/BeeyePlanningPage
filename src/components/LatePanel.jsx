@@ -9,7 +9,7 @@ function LatePanel() {
                     <span>!</span>
                     <span>EN RETARD</span>
                 </div>
-                <Card />
+                <Card isCompleted={false} isLate={true} />
             </div>
         </div>
     );
