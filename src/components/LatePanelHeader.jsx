@@ -10,7 +10,9 @@ function LatePanelHeader() {
                     <h4>Poste du collaborateur</h4>
                 </div>
             </div>
-            <span className="icon">v</span>
+            <div className="icon">
+                <i className="fas fa-chevron-down"/>
+            </div>
         </div>
     );
 }

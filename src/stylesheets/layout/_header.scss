@@ -37,24 +37,26 @@
       background-color: #343C4B;
       border-radius: 20px;
       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08);
+      cursor: pointer;
       margin-right: 24px;
       padding: 8px 16px;
 
       .icon {
         @include icon-font;
         color: $light-grey;
+        display: inline-block;
       }
       .text {
         @include regular-font;
         color: $light-grey-border;
-        font-weight: bold;
         margin: 0 8px;
       }
     }
 
-    a {
+    .icon-link {
       @include icon-font;
       color: $light-grey-border;
+      display: inline-block;
       margin: 0 12px;
     }
 
@@ -99,12 +101,14 @@
       background-color: $white;
       border-radius: 4px;
       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08);
+      cursor: pointer;
       margin-right: 8px;
       padding: 8px 16px;
 
       .icon {
         @include icon-font;
         color: $orange;
+        display: inline-block;
 
         &.counter {
           background-color: $light-orange;
@@ -133,7 +137,7 @@
 
 .main-panel--header {
   .month--header {
-    @include subHeader;
+    @include subHeader-bold;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 1px rgba(0, 0, 0, 0.1);
     color: $light-grey;
     font-weight: bold;
@@ -160,7 +164,7 @@
   }
 
   .day--header, .day-index--header {
-    @include subHeader;
+    @include subHeader-bold;
     font-weight: bold;
     margin: 8px 16px 5px 16px;
   }

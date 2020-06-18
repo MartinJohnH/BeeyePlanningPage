@@ -12,7 +12,15 @@
 
 ///mixin for top-bar link fonts
 @mixin regular-font {
-  font-family: sans-serif;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@mixin regular-font-bold {
+  font-family: Gotham Bold;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -21,7 +29,7 @@
 
 ///mixin for icon
 @mixin icon-font {
-  font-family: sans-serif;
+  font-family: Gotham;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -30,7 +38,7 @@
 
 //mixin for H1 font
 @mixin h1-font {
-  font-family: sans-serif;
+  font-family: Gotham Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -39,7 +47,7 @@
 
 //mixin for subHeader font
 @mixin subHeader {
-  font-family: sans-serif;
+  font-family: Gotham;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -48,7 +56,25 @@
 
 //mixin for small-subHeader font
 @mixin smallSubHeader {
-  font-family: sans-serif;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+//mixin for subHeader font
+@mixin subHeader-bold {
+  font-family: Gotham Bold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+//mixin for small-subHeader font
+@mixin smallSubHeader-bold {
+  font-family: Gotham Bold;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;

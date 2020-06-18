@@ -6,6 +6,7 @@ import {createStore} from 'redux'
 import rootReducer from "./reducers/index";
 import * as serviceWorker from './serviceWorker';
 import './stylesheets/imports.scss';
+import  '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 //pages
 import HomePage from './pages/HomePage';
 

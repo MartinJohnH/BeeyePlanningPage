@@ -7,45 +7,45 @@ function SubHeader() {
             <div className="buttons-left-align">
                 <Button
                     dropdown={false}
-                    icon='A'
+                    icon='fas fa-map-marker-alt'
                     text="Aujourd'hui"
                 />
                 <Button
                     dropdown={false}
-                    icon='B'
+                    icon='fas fa-arrow-left'
                     text=''
                 />
                 <Button
                     dropdown={false}
-                    icon='N'
+                    icon='fas fa-arrow-right'
                     text=''
                 />
                 <Button
                     dropdown={true}
-                    icon='C'
+                    icon='far fa-calendar'
                     text='Lundi 07 Octobre — Dimanche 13 Octobre'
                 />
                 <Button
                     dropdown={true}
-                    icon='S'
+                    icon='fas fa-calendar-week'
                     text='Semaine'
                 />
                 <Button
                     dropdown={false}
-                    icon='P'
+                    icon='fas fa-pause'
                     text='Écran divisé'
                 />
             </div>
             <div className="buttons-right-align">
                 <Button
                     dropdown={false}
-                    icon='C'
+                    icon=''
                     text='Conflits'
                     counter={true}
                 />
                 <Button
                     dropdown={false}
-                    icon='S'
+                    icon='fas fa-sliders-h'
                     text='Personnaliser'
                 />
             </div>

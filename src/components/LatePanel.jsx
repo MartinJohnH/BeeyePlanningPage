@@ -6,7 +6,7 @@ function LatePanel() {
         <div className="late-panel">
             <div className="cards-container late-panel">
                 <div className="late-banner">
-                    <span>!</span>
+                    <i className="fas fa-exclamation-triangle"/>
                     <span>EN RETARD</span>
                 </div>
                 <Card isCompleted={false} isLate={true} />

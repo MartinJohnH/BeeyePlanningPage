@@ -20,14 +20,22 @@ function MenuRight() {
         <div className="menu-right">
             <Button
                 dropdown={true}
-                icon='T'
+                icon='far fa-folder-open'
                 text='Ajouter'
             />
             <div className="icon-set">
-                <a href="#">S</a>
-                <a href="#">A</a>
-                <a href="#">?</a>
-                <a href="#">S</a>
+                <div className="icon-link">
+                    <i className="fas fa-search"/>
+                </div>
+                <div className="icon-link">
+                    <i className="far fa-bell"/>
+                </div>
+                <div className="icon-link">
+                    <i className="far fa-question-circle"/>
+                </div>
+                <div className="icon-link">
+                    <i className="fas fa-cog"/>
+                </div>
             </div>
             <img className="avatar" src={require('../assets/avatar.png')} alt="avatar"/>
         </div>

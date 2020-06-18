@@ -33,10 +33,14 @@ function Card(props) {
             {!props.isCompleted &&
                 <div className="card-footer">
                     <div className="card-footer-inner-wrapper">
-                        <span className="location-icon">H</span>
+                        <div className="location-icon">
+                            <i className="fas fa-home"/>
+                        </div>
                         <h5 className="location">Domicile</h5>
                     </div>
-                    <span className="comment">C</span>
+                    <div className="comment">
+                        <i className="far fa-comments"/>
+                    </div>
                 </div>
             }
         </div>

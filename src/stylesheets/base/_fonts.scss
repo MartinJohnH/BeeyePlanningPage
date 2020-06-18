@@ -4,8 +4,19 @@
 ------------------------------------------------------------------------------*/
 
 /**
- * Roboto - https://fonts.google.com/specimen/Roboto
- * Regular 400
- * Bold 700
+ * Gotham
  */
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../assets/Gotham.woff') format('woff');
+  font-weight: normal;
+}
+
+/**
+ * Gotham Bold
+ */
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('../../assets/GothamBold.woff') format('woff');
+  font-weight: bold;
+}

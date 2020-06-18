@@ -71,7 +71,7 @@
   }
 
   .project-name {
-    @include regular-font;
+    @include regular-font-bold;
     color: $navy-blue;
     font-weight: bold;
     margin: 0 8px;

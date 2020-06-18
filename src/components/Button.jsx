@@ -6,13 +6,17 @@ function Button(props) {
             {props.counter ?
                 <span className="icon counter">10</span>
             :
-                <span className="icon">{props.icon}</span>
+                <div className="icon">
+                    <i className={props.icon}/>
+                </div>
             }
             {props.text.length !== 0 &&
                 <span className="text">{props.text}</span>
             }
             {props.dropdown &&
-                <span className="icon">v</span>
+                <div className="icon">
+                    <i className="fas fa-chevron-down"/>
+                </div>
             }
         </div>
     );

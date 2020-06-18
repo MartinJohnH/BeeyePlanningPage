@@ -32,8 +32,7 @@
 ------------------------------------------------------------------------------*/
 @import
   'base/base',
-  'base/fonts',
-  'base/typography';
+  'base/fonts';
 
 /*------------------------------------------------------------------------------
 4.0 layout - global wireframe (flex-box/grid)
@@ -50,7 +49,8 @@
   'components/search-bar',
   'components/late-panel',
   'components/cards-container',
-  'components/card';
+  'components/card',
+  'components/new-task-button';
 
 /*------------------------------------------------------------------------------
 6.0 pages - page-specific styles

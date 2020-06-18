@@ -60,7 +60,7 @@
 }
 
 .late-banner {
-  @include regular-font;
+  @include regular-font-bold;
   color: $dark-red;
   background-color: $red;
   border-radius: 4px;
@@ -70,7 +70,7 @@
   padding: 8px;
   width: calc(100% - 16px);
 
-  span {
+  i {
     margin-right: 8px;
   }
 }
