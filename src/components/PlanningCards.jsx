@@ -18,13 +18,11 @@ function PlanningCards(props) {
                     {props.daysArray.map((day, index) =>
                         <div key={"cards " + day + index} className="cards-container">
                             {props.daysArray.map((day, index) =>
-                                <>
+                                <div key={"card " + day + index}>
                                     {index < 5 &&
-                                        <div key={"card " + day + index}>
-                                            <Card isCompleted={false} isLate={false}/>
-                                        </div>
+                                        <Card isCompleted={false} isLate={false}/>
                                     }
-                                </>
+                                </div>
                             )}
                             {index === 6 &&
                                 <NewTaskButton />
