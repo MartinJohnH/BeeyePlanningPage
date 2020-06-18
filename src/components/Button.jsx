@@ -3,7 +3,11 @@ import React from 'react';
 function Button(props) {
     return (
         <div className="button">
-            <span className="icon">{props.icon}</span>
+            {props.counter ?
+                <span className="icon counter">10</span>
+            :
+                <span className="icon">{props.icon}</span>
+            }
             {props.text.length !== 0 &&
                 <span className="text">{props.text}</span>
             }

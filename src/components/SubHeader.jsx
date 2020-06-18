@@ -41,6 +41,7 @@ function SubHeader() {
                     dropdown={false}
                     icon='C'
                     text='Conflits'
+                    counter={true}
                 />
                 <Button
                     dropdown={false}

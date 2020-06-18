@@ -13,6 +13,10 @@
 .planning-cards-grid {
   display: grid;
   grid-template-columns: 352px auto;
+
+  @media (max-width: $xxl-viewport) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .days-grid {

@@ -11,6 +11,10 @@
   display: flex;
   justify-content: space-between;
 
+  @media (max-width: $xxl-viewport) {
+    display: none;
+  }
+
   .panel-inner-wrapper {
     display: flex;
   }
@@ -40,7 +44,8 @@
     }
   }
 
-  span {
+  .icon {
+    @include icon-font;
     color: $light-grey;
     margin: 16px;
   }
@@ -48,6 +53,10 @@
 
 .late-panel {
   height: 100%;
+
+  @media (max-width: $xxl-viewport) {
+    display: none;
+  }
 }
 
 .late-banner {
