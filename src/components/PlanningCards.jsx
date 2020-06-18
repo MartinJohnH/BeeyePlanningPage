@@ -5,7 +5,7 @@ import Card from "./Card";
 import LatePanel from "./LatePanel";
 
 function PlanningCards() {
-    const daysArray = ["lundi", "mardi", "mercredi", "Jeudi", "vendredi", "samedi", "dimanche"];
+    const daysArray = ["LUNDI", "MARDI", "MERCREDI", "JEUDI", "VENDREDI", "SAMEDI", "DIMANCHE"];
     return (
         <div className="planning-cards-grid">
             <div>
@@ -14,7 +14,7 @@ function PlanningCards() {
             </div>
             <div>
                 <TaskCounter daysArray={daysArray} />
-                <div className="days-grid">
+                <div className="days-grid main">
                     {daysArray.map((day, index) =>
                         <div className="cards-container">
                             <Card />

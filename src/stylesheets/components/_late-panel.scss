@@ -1,0 +1,49 @@
+/*------------------------------------------------------------------------------
+5.0 components - specific module/widgets
+>>> This file contains all styles related to the LatePanel component.
+------------------------------------------------------------------------------*/
+
+.late-panel-header {
+  align-items: center;
+  background: $dark-white;
+  border-bottom: 1px solid $light-grey-border2;
+  box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+
+  .panel-inner-wrapper {
+    display: flex;
+  }
+
+  .avatar {
+    height: 32px;
+    margin: 16px 8px 16px 16px;
+    width: 32px;
+  }
+
+  .collaborator-name--header {
+    margin: 16px 12px 0 12px;
+
+    h3 {
+      @include regular-font;
+      font-weight: bold;
+      color: $grey-blue;
+      margin: 0;
+    }
+
+    h4 {
+      @include subHeader;
+      color: $light-grey;
+      margin: 0;
+    }
+  }
+
+  span {
+    color: $light-grey;
+    margin: 16px;
+  }
+}
+
+.late-panel {
+  height: 100%;
+}

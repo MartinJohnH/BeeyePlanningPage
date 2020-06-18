@@ -4,11 +4,11 @@ import Card from "./Card";
 function LatePanel() {
     return (
         <div className="late-panel">
-            <div className="late-banner">
-              <span>!</span>
-              <span>EN RETARD</span>
-            </div>
-            <div className="cards-container">
+            <div className="cards-container late-panel">
+                <div className="late-banner">
+                    <span>!</span>
+                    <span>EN RETARD</span>
+                </div>
                 <Card />
             </div>
         </div>

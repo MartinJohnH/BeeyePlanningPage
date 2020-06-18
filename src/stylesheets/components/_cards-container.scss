@@ -1,0 +1,15 @@
+/*------------------------------------------------------------------------------
+5.0 components - specific module/widgets
+>>> This file contains all styles related to the PlanningCard container component.
+------------------------------------------------------------------------------*/
+
+.cards-container {
+  background-color: $light-blue;
+  border-right: 1px solid $light-blue-border;
+
+  &.late-panel {
+    background-color: $light-blue2;
+    box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.08);
+    height: 100%;
+  }
+}

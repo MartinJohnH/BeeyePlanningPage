@@ -2,7 +2,7 @@ import React from 'react';
 import SearchBar from "./SearchBar";
 
 function PlanningCardsHeader(props) {
-    const daysArray = ["lundi", "mardi", "mercredi", "Jeudi", "vendredi", "samedi", "dimanche"];
+    const daysArray = ["LUNDI", "MARDI", "MERCREDI", "JEUDI", "VENDREDI", "SAMEDI", "DIMANCHE"];
     return (
         <div className="planning-cards-grid">
             <SearchBar />
