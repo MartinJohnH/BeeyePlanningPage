@@ -10,6 +10,7 @@ function LatePanel() {
                     <span>EN RETARD</span>
                 </div>
                 <Card isCompleted={false} isLate={true} />
+                <Card isCompleted={false} isLate={true} />
             </div>
         </div>
     );

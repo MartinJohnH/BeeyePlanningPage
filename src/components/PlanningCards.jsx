@@ -14,17 +14,26 @@ function PlanningCards(props) {
             </div>
             <div>
                 <TaskCounter daysArray={props.daysArray} />
+
+                {/* temporary just to fill in as mock data */}
+
                 <div className="days-grid main">
                     {props.daysArray.map((day, index) =>
                         <div key={"cards " + day + index} className="cards-container">
-                            {props.daysArray.map((day, index) =>
+                            {index < 5 && props.daysArray.map((day, index) =>
                                 <div key={"card " + day + index}>
-                                    {index < 5 &&
+                                    {index < 4 &&
                                         <Card isCompleted={false} isLate={false}/>
                                     }
                                 </div>
                             )}
-                            {index === 6 &&
+                            {index < 4 &&
+                                <>
+                                    <Card isCompleted={true} isLate={false}/>
+                                    <Card isCompleted={true} isLate={false}/>
+                                </>
+                            }
+                            {index === 4 &&
                                 <NewTaskButton />
                             }
                         </div>
